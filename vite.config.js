@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://mern-auth-server-0zi8.onrender.com:4000', // Redirect everything to port 4000
+        target: 'https://mern-auth-server-0zi8.onrender.com', // Redirect everything to port 4000
         changeOrigin: true,
         secure: false,
       },
